@@ -1,0 +1,13 @@
+<h1 class="container bg-dark text-white text-center my-4 py-4">[ngClass]</h1>
+
+<div class="container">
+    <button class="btn btn-warning" (click)="show = !show">Acción</button>
+    <p class="text-info" *ngIf="show; else showDos">
+        Una directiva estructural que incluye condicionalmente una plantilla basada en el valor de una expresión forzada a booleana. Cuando la expresión se evalúa como verdadera, Angular representa la plantilla proporcionada en una thencláusula, y cuando es falsa o nula, Angular representa la plantilla proporcionada en una elsecláusula opcional . La plantilla predeterminada para la elsecláusula está en blanco. 
+    </p>
+    <ng-template #showDos>
+        <p class="text-danger">
+            Una directiva estructural que incluye condicionalmente una plantilla basada en el valor de una expresión forzada a booleana. Cuando la expresión se evalúa como verdadera, Angular representa la plantilla proporcionada en una thencláusula, y cuando es falsa o nula, Angular representa la plantilla proporcionada en una elsecláusula opcional . La plantilla predeterminada para la elsecláusula está en blanco.
+        </p>
+    </ng-template>
+</div>
