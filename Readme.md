@@ -636,8 +636,7 @@ Finalmente dentro de _equipo.component.html_ visualizamos los datos del elemento
 ```
 
 <p align="center">
-<img src="images/Angular_ruta_dinamica
-.PNG">
+<img src="images/Angular_ruta_dinamica.PNG">
 </p>
 
 
